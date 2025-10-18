@@ -76,3 +76,103 @@
 
 </body>
 
+<head>
+	<title>Webpage</title>
+</head>
+<style>
+	html,body {
+		padding: 0;
+		margin: 0;
+		background-size: cover;
+		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR54-1MC0xFg3sVqTTvgBpoZFukTOA-YOCyyw&s");
+		font-family: Trebuchet MS;
+		background-attachment: fixed;
+	}
+	tr {
+		height: 50px;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	.leftside{
+		position: absolute;
+		z-index: 0;
+		width: 55vw;
+		height: 100vh;
+		position: absolute;
+		right: 0;
+		background: #eda1a3;
+		box-shadow: 0 0 10px 10px #eda1a3;
+		opacity: 90%;
+	}
+	.navbar{
+		position: fixed;
+		width: 100%;
+		overflow: auto;
+		z-index: 1;
+		top: 0;
+		padding-left: 10px;
+	}
+	.tabs{
+		position: fixed;
+		top: 0;
+		right: 0;
+		transform: translate(-10px,10px);
+		float: right;
+	}
+	.navbar a{
+		float: left;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
+		color: white;
+	}
+	.navbar a:hover{
+		background-color: blue;
+		color: #eda1a3;
+		border-radius: 8px;
+	}
+	button {
+		background-color: white;
+		border-radius: 8px;
+		border: 1px solid black;
+		font-size: 15px;
+		padding: 5px;
+		transition-duration: 0.7s;
+	}
+	button:hover{
+		background-color: black;
+		color: white;
+	}
+</style>
+
+<body>
+<!-- navigation bar -->
+<div class="navbar">
+	<h3>Raveena Dutta</h3>
+	<div class="tabs">
+		<a href="#">Home</a>
+		<a href="aboutme.html">About Me</a> 
+		
+	</div>
+</div>
+
+
+<!-- left solid side -->
+<div class="leftside">
+		<!--selection -->
+		<table style="text-align: center; margin-left: auto; margin-right: auto; transform: translate(0px,30vh);">
+			<tr><th style="text-align: left;"><h1 style="font-size: 60px; margin-bottom: 2px;">Hello,</br>I'm Raveena Dutta</h1><p style="margin-top: 2px;">Aspiring to do something in Psych?</p></th></tr>
+			<tr><td><a href="file:///Users/raveenadutta/Downloads/Resume.pdf" download><button style="width: 100%;">My Resume</button></a></td></tr>
+			<tr><td>
+				<a href="http://linkedin.com/in/raveena-dutta-35010b2a1" target="_blank"><img src="5279114_linkedin_network_social network_linkedin logo_icon.png" style="height: 40px; width: auto;"></a>
+				<a href="https://snapchat.com/t/PUo4mgd0" target="_blank"><img src="https://www.nicepng.com/png/full/146-1466677_snapchat-ghost-by-cocomishelle-small-size-please-transparent.png" style="height: 40px; width: auto;"></a>
+				<a href="https://venmo.com/code?user_id=3219591329218560573" target="_blank"><img src="https://www.freeiconspng.com/uploads/money-transfer-icon-venmo-logo-png-0.png" style="height: 40px; width: auto;"></a>
+				<a href="http://www.tiktok.com/@raveena.dutta3" target="_blank"><img src="imageedit_4_6448611106.png" style="height: 42px; width: auto;"></a>
+			</td></tr>
+		</table>
+</div>
+</body>
+</html>
