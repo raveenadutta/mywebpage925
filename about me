@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+</head>
+<style>
+	html,body {
+		padding: 0;
+		margin: 0;
+		background-size: cover;
+		background-image: url("multicolored-liquid-vibrant-gradient-holographic-fluid-smooth-transitions-iridescent-colors_663214-441.avif");
+		font-family: Trebuchet MS;
+		background-attachment: fixed;
+	}
+	.navbar{
+		position: fixed;
+		width: 100%;
+		overflow: auto;
+		z-index: 1;
+		top: 0;
+		padding-left: 10px;
+		background: #eda1a3 ;
+	}
+	.tabs{
+		position: fixed;
+		top: 0;
+		right: 0;
+		transform: translate(-10px,10px);
+		float: right;
+	}
+	.navbar a{
+		float: left;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
+		color: white;
+		text-decoration: none;
 
+	}
+	.navbar a:hover{
+		background-color: purple;
+		color: #eda1a3;
+		border-radius: 8px;
+	}
+	.images {
+		position: fixed;
+		width: 210px;
+		height: 100vh;
+		margin-right: 2vw;
+		float: left;
+		background-image: url(https://www.colorblends.com/wp-content/uploads/2020/01/1505_BestPink_CGC9568sqII-1024x1024.jpg);
+		background-size: contain;
+		
+	}
+	.content {
+		width: 60vw;
+		transform: translate(230px,59px);
+		padding-bottom: 20px;
+	}
+	p,li {
+		background-color: rgba(255, 255, 255, 0.7);
+		padding: 10px;
+	}
+</style>
+
+<body>
+<!-- navigation bar -->
+<div class="navbar">
+	<h3 style="color: white;">Raveena Dutta</h3>
+	<div class="tabs">
+		<a href="index.html">Home</a>
+		<a href="#">About Me</a> 
+		
+	</div>
+</div>
+
+
+<div>
+	<div class="images">
+	</div>
+	<div class="content">
+		<h1 style="background-color: #eda1a3; padding-left: 20px; color: white;">About Me</h1>
+		<p>Hi, my name is Kayla Redman and I am an undergraduate student at <a href="https://www.stmarys-ca.edu/"> Saint Mary's College of California</a>. I am getting my Bachelor's of Sci in Psych?. </p>
+		<p>I am originally from San ramon, CA. I was born and raised in the Bay Area. I love the weather here and the food.</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101249.44758983325!2d-122.01181879999999!3d37.53043089999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbf46b7e8caf7%3A0x8ada313b89d888d4!2sFremont%2C%20CA!5e0!3m2!1sen!2sus!4v1698383526907!5m2!1sen!2sus" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<p><b>This is a list of clubs I am in:</b></p>
+		<li>South asian club</li>
+		<li>Psych club</li>
+		<li>club tennis</li>
+		<p>In my free time I like to hang out with my friends</p>
+	</div>
+</div>
+</body>
+</html>
