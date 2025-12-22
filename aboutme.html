@@ -62,17 +62,57 @@
 		background-color: rgba(255, 255, 255, 0.7);
 		padding: 10px;
 	}
-</div>
-</body>
+.navbar{
+		position: fixed;
+		width: 100%;
+		overflow: auto;
+		z-index: 1;
+		top: 0;
+		padding-left: 10px;
+	}
+	.tabs{
+		position: fixed;
+		top: 0;
+		right: 0;
+		transform: translate(-10px,10px);
+		float: right;
+	}
+	.navbar a{
+		float: left;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
+		color: white;
+	}
+	.navbar a:hover{
+		background-color: blue;
+		color: #eda1a3;
+		border-radius: 8px;
+	}
+	button {
+		background-color: white;
+		border-radius: 8px;
+		border: 1px solid black;
+		font-size: 15px;
+		padding: 5px;
+		transition-duration: 0.7s;
+	}
+	button:hover{
+		background-color: black;
+		color: white;
+	}
 </style>
+>
+<body>
+<!-- navigation bar -->
 <div class="navbar">
 	
 	<div class="tabs">
 		<a href="#">Home</a>
 		<a href="aboutme.html">About Me</a> 
 		
-	//</div>
-</div>
+	</div>
 <div>
 	<div class="images">
 	</div>
@@ -87,7 +127,7 @@
 		<li>club tennis</li>
 		<p>In my free time I like to hang out with my friends and travel with my family, we have visited about 12 countries</p>
 	</div>
-</div>
+
 </body>
 </html>
 
